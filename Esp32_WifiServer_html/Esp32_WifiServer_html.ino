@@ -27,7 +27,7 @@ void setup() {
 
   // Construção do texto base da página HTML renderizda pelo servidor
   texto += "Redes Wi-fi";
-  texto += "RESPONSES<hr>Click <a href=\"/CLEAR\">here</a> to clear responses.<br><br>";
+  texto += "<hr>Click <a href=\"/CLEAR\">here</a> to clear responses.<br><br>";
   
   // Iniciando comunicação serial
   Serial.begin(9600);
@@ -57,12 +57,14 @@ void loop() {
             int n = WiFi.scanNetworks();
 
             if (n == 0) {
-                responses += "no networks found\n";
+                responses += "no networks found<br>";
             } else {
-                responses += n + " networks found\n";
+                responses += String(n) + " networks found<br>";
               for (int i = 0; i < n; ++i) {
                 // Print SSID and RSSI for each network found
-                responses += (i + 1) + ": " + WiFi.SSID(i) + " (" + WiFi.RSSI(i) + ")\n";
+                String ssid = WiFi.SSID(i);
+                int rssi = WiFi.RSSI(i);
+                responses += String(i + 1) + ": " + ssid + " (" + String(rssi) + ")<br>";
                 delay(10);
               }
             }
