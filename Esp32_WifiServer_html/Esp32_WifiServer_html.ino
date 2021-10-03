@@ -26,8 +26,7 @@ String responses;
 void setup() {
 
   // Construção do texto base da página HTML renderizda pelo servidor
-  texto += "Redes Wi-fi";
-  texto += "<hr>Click <a href=\"/CLEAR\">here</a> to clear responses.<br><br>";
+  texto += "Redes Wi-fi<hr>";
   
   // Iniciando comunicação serial
   Serial.begin(9600);
@@ -56,6 +55,8 @@ void loop() {
             // WiFi.scanNetworks will return the number of networks found
             int n = WiFi.scanNetworks();
 
+            responses = String();
+
             if (n == 0) {
                 responses += "no networks found<br>";
             } else {
@@ -77,9 +78,6 @@ void loop() {
           }
         } else if (c != '\r') {
           currentLine += c;
-        }
-        if (currentLine.endsWith("GET /CLEAR")){
-          responses = String();
         }
       }
     }
