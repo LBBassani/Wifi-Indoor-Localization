@@ -26,7 +26,7 @@ String responses;
 void setup() {
 
   // Construção do texto base da página HTML renderizda pelo servidor
-  texto += "";
+  texto += "Redes Wi-fi";
   texto += "RESPONSES<hr>Click <a href=\"/CLEAR\">here</a> to clear responses.<br><br>";
   
   // Iniciando comunicação serial
@@ -52,7 +52,23 @@ void loop() {
         if (c == '\n') {
           if (currentLine.length() == 0) {
             client.println(texto);
-            client.println(responses);
+
+            // WiFi.scanNetworks will return the number of networks found
+            int n = WiFi.scanNetworks();
+
+            if (n == 0) {
+                responses += "no networks found\n";
+            } else {
+                responses += n + " networks found\n";
+              for (int i = 0; i < n; ++i) {
+                // Print SSID and RSSI for each network found
+                responses += (i + 1) + ": " + WiFi.SSID(i) + " (" + WiFi.RSSI(i) + ")\n";
+                delay(10);
+              }
+            }
+              client.println(responses);
+           
+            
             break;
           } else {
             currentLine = "";
