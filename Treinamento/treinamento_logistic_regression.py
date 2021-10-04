@@ -36,3 +36,11 @@ model.fit(X, y.values.ravel()) # https://stackoverflow.com/questions/34165731/a-
 
 #%%
 ynew = model.predict_proba(X)
+
+#%%
+# https://www.datageeks.com.br/regressao-linear/
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
+model.fit(X,y)
+
+y_pred = model.predict(X)
