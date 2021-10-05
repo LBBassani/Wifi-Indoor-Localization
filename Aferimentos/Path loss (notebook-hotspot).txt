@@ -1,0 +1,96 @@
+Path loss (notebook-hotspot)
+
+Medição 0 - bem próximo
+{'networks':[{'SSID':'lorena-notebook','RSSI':-35},{'SSID':'@2830_Ext','RSSI':-61},{'SSID':'@2830','RSSI':-68},{'SSID':'FERNANDO','RSSI':-82},{'SSID':'Carol','RSSI':-89},{'SSID':'CAVALO DE TROIA','RSSI':-89},{'SSID':'Helena','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-37},{'SSID':'@2830_Ext','RSSI':-59},{'SSID':'@2830','RSSI':-71},{'SSID':'FERNANDO','RSSI':-82},{'SSID':'CAVALO DE TROIA','RSSI':-87},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-37},{'SSID':'@2830_Ext','RSSI':-59},{'SSID':'@2830','RSSI':-71},{'SSID':'FERNANDO','RSSI':-82},{'SSID':'CAVALO DE TROIA','RSSI':-87},]}
+
+Medição 1 - 0.5 m
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-41},{'SSID':'@2830_Ext','RSSI':-60},{'SSID':'@2830','RSSI':-71},{'SSID':'FERNANDO','RSSI':-80},{'SSID':'FERNANDO','RSSI':-90},{'SSID':'CAVALO DE TROIA','RSSI':-90},{'SSID':'AP_1705623449','RSSI':-91},{'SSID':'Casa Branca','RSSI':-92},{'SSID':'Carol','RSSI':-94},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-42},{'SSID':'@2830_Ext','RSSI':-58},{'SSID':'@2830','RSSI':-72},{'SSID':'FERNANDO','RSSI':-81},{'SSID':'FERNANDO','RSSI':-91},{'SSID':'Casa Branca','RSSI':-92},{'SSID':'Carol','RSSI':-95},{'SSID':'AP_1705623449','RSSI':-96},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-39},{'SSID':'@2830_Ext','RSSI':-58},{'SSID':'@2830','RSSI':-72},{'SSID':'FERNANDO','RSSI':-80},{'SSID':'AP_1705623449','RSSI':-89},{'SSID':'Casa Branca','RSSI':-91},{'SSID':'FERNANDO','RSSI':-92},]}
+
+
+Medição 1 - 1m
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-42},{'SSID':'@2830_Ext','RSSI':-52},{'SSID':'@2830','RSSI':-74},{'SSID':'FERNANDO','RSSI':-85},{'SSID':'Helena','RSSI':-90},{'SSID':'Casa Branca','RSSI':-92},{'SSID':'CAVALO DE TROIA','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-42},{'SSID':'@2830_Ext','RSSI':-55},{'SSID':'@2830','RSSI':-70},{'SSID':'FERNANDO','RSSI':-84},{'SSID':'Helena','RSSI':-90},{'SSID':'FERNANDO','RSSI':-92},{'SSID':'CASA DA ARVORE ','RSSI':-92},{'SSID':'Casa Branca','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-41},{'SSID':'@2830_Ext','RSSI':-57},{'SSID':'@2830','RSSI':-70},{'SSID':'FERNANDO','RSSI':-84},{'SSID':'Helena','RSSI':-89},{'SSID':'Casa Branca','RSSI':-95},]}
+
+
+Medição 2 - 1.5 m
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-51},{'SSID':'@2830_Ext','RSSI':-64},{'SSID':'@2830','RSSI':-76},{'SSID':'FERNANDO','RSSI':-84},{'SSID':'CAVALO DE TROIA','RSSI':-87},{'SSID':'CASA DA ARVORE ','RSSI':-87},{'SSID':'Sandra123','RSSI':-90},{'SSID':'Helena','RSSI':-92},{'SSID':'AP_1705623449','RSSI':-94},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-51},{'SSID':'@2830_Ext','RSSI':-64},{'SSID':'@2830','RSSI':-72},{'SSID':'FERNANDO','RSSI':-82},{'SSID':'CASA DA ARVORE ','RSSI':-86},{'SSID':'AP_1705623449','RSSI':-90},{'SSID':'CAVALO DE TROIA','RSSI':-91},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-53},{'SSID':'@2830_Ext','RSSI':-66},{'SSID':'@2830','RSSI':-72},{'SSID':'FERNANDO','RSSI':-82},{'SSID':'CAVALO DE TROIA','RSSI':-84},{'SSID':'CASA DA ARVORE ','RSSI':-88},{'SSID':'AP_1705623449','RSSI':-92},{'SSID':'Casa Branca','RSSI':-92},]}
+
+
+Medição 3 - 2m
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-55},{'SSID':'@2830','RSSI':-65},{'SSID':'@2830_Ext','RSSI':-77},{'SSID':'FERNANDO','RSSI':-82},{'SSID':'CAVALO DE TROIA','RSSI':-89},{'SSID':'FERNANDO','RSSI':-90},{'SSID':'AP_1705623449','RSSI':-90},{'SSID':'Casa Branca','RSSI':-90},{'SSID':'CAMPOS','RSSI':-94},{'SSID':'3J*CADEADO','RSSI':-96},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-53},{'SSID':'@2830','RSSI':-66},{'SSID':'@2830_Ext','RSSI':-69},{'SSID':'FERNANDO','RSSI':-84},{'SSID':'AP_1705623449','RSSI':-91},{'SSID':'CAMPOS','RSSI':-94},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-52},{'SSID':'@2830','RSSI':-66},{'SSID':'@2830_Ext','RSSI':-71},{'SSID':'FERNANDO','RSSI':-83},{'SSID':'CAVALO DE TROIA','RSSI':-89},{'SSID':'FERNANDO','RSSI':-91},{'SSID':'CAMPOS','RSSI':-92},{'SSID':'AP_1705623449','RSSI':-94},]}
+
+Medição 4 - 2.5m
+
+{'networks':[{'SSID':'@2830_Ext','RSSI':-59},{'SSID':'lorena-notebook','RSSI':-64},{'SSID':'@2830','RSSI':-68},{'SSID':'FERNANDO','RSSI':-81},{'SSID':'Casa Branca','RSSI':-90},{'SSID':'AP_1705623449','RSSI':-90},{'SSID':'CASA DA ARVORE ','RSSI':-90},{'SSID':'CAVALO DE TROIA','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-55},{'SSID':'@2830_Ext','RSSI':-59},{'SSID':'@2830','RSSI':-70},{'SSID':'FERNANDO','RSSI':-80},{'SSID':'Casa Branca','RSSI':-89},{'SSID':'COGO','RSSI':-89},{'SSID':'Sandra123','RSSI':-90},{'SSID':'CAMPOS','RSSI':-90},{'SSID':'CAVALO DE TROIA','RSSI':-91},{'SSID':'AP_1705623449','RSSI':-92},{'SSID':'INTELBRAS','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-51},{'SSID':'@2830_Ext','RSSI':-58},{'SSID':'@2830','RSSI':-68},{'SSID':'FERNANDO','RSSI':-80},{'SSID':'Sandra123','RSSI':-90},{'SSID':'Casa Branca','RSSI':-90},{'SSID':'COGO','RSSI':-90},{'SSID':'AP_1705623449','RSSI':-91},{'SSID':'CAVALO DE TROIA','RSSI':-92},{'SSID':'CASA DA ARVORE ','RSSI':-94},]}
+
+
+Medição 5 - 3m
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-56},{'SSID':'@2830','RSSI':-68},{'SSID':'@2830_Ext','RSSI':-71},{'SSID':'FERNANDO','RSSI':-79},{'SSID':'CASA DA ARVORE ','RSSI':-82},{'SSID':'Casa Branca','RSSI':-86},{'SSID':'CAVALO DE TROIA','RSSI':-88},{'SSID':'Sandra123','RSSI':-91},{'SSID':'PACHECO','RSSI':-91},{'SSID':'FERNANDO','RSSI':-92},{'SSID':'CAMPOS','RSSI':-92},{'SSID':'Tamires','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-55},{'SSID':'@2830','RSSI':-69},{'SSID':'@2830_Ext','RSSI':-80},{'SSID':'FERNANDO','RSSI':-81},{'SSID':'CASA DA ARVORE ','RSSI':-84},{'SSID':'Casa Branca','RSSI':-87},{'SSID':'CAVALO DE TROIA','RSSI':-90},{'SSID':'FERNANDO','RSSI':-91},{'SSID':'PACHECO','RSSI':-91},{'SSID':'CAMPOS','RSSI':-92},{'SSID':'Castelo_Transporte','RSSI':-92},{'SSID':'AP_1705623449','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-62},{'SSID':'@2830','RSSI':-70},{'SSID':'FERNANDO','RSSI':-80},{'SSID':'@2830_Ext','RSSI':-81},{'SSID':'CASA DA ARVORE ','RSSI':-84},{'SSID':'Casa Branca','RSSI':-88},{'SSID':'CAVALO DE TROIA','RSSI':-88},{'SSID':'PACHECO','RSSI':-92},{'SSID':'FERNANDO','RSSI':-93},{'SSID':'AP_1705623449','RSSI':-94},{'SSID':'Tamires','RSSI':-95},]}
+
+
+Medição 6 - 3.5m
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-63},{'SSID':'@2830','RSSI':-67},{'SSID':'@2830_Ext','RSSI':-71},{'SSID':'FERNANDO','RSSI':-77},{'SSID':'Casa Branca','RSSI':-87},{'SSID':'CAVALO DE TROIA','RSSI':-88},{'SSID':'Vasconcelos','RSSI':-90},{'SSID':'DIEGO','RSSI':-92},{'SSID':'AP_1705623449','RSSI':-93},{'SSID':'COGO','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-63},{'SSID':'@2830','RSSI':-66},{'SSID':'@2830_Ext','RSSI':-71},{'SSID':'FERNANDO','RSSI':-76},{'SSID':'CAVALO DE TROIA','RSSI':-83},{'SSID':'CASA DA ARVORE ','RSSI':-83},{'SSID':'Casa Branca','RSSI':-88},{'SSID':'Vasconcelos','RSSI':-90},{'SSID':'AP_1705623449','RSSI':-92},{'SSID':'COGO','RSSI':-92},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-64},{'SSID':'@2830','RSSI':-67},{'SSID':'@2830_Ext','RSSI':-72},{'SSID':'FERNANDO','RSSI':-77},{'SSID':'CASA DA ARVORE ','RSSI':-83},{'SSID':'CAVALO DE TROIA','RSSI':-84},{'SSID':'Casa Branca','RSSI':-86},{'SSID':'Vasconcelos','RSSI':-90},{'SSID':'AP_1705623449','RSSI':-91},{'SSID':'COGO','RSSI':-94},]}
+
+
+Medição 7 - 4m
+
+{'networks':[{'SSID':'@2830','RSSI':-64},{'SSID':'lorena-notebook','RSSI':-69},{'SSID':'FERNANDO','RSSI':-76},{'SSID':'@2830_Ext','RSSI':-77},{'SSID':'CASA DA ARVORE ','RSSI':-80},{'SSID':'CAVALO DE TROIA','RSSI':-82},{'SSID':'Casa Branca','RSSI':-88},{'SSID':'AP_1705623449','RSSI':-89},{'SSID':'Km','RSSI':-91},{'SSID':'Tamires','RSSI':-91},{'SSID':'Sandra123','RSSI':-91},{'SSID':'CAMPOS','RSSI':-91},{'SSID':'FERNANDO','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-62},{'SSID':'@2830','RSSI':-63},{'SSID':'FERNANDO','RSSI':-75},{'SSID':'@2830_Ext','RSSI':-77},{'SSID':'Casa Branca','RSSI':-86},{'SSID':'CAVALO DE TROIA','RSSI':-86},{'SSID':'Vasconcelos','RSSI':-88},{'SSID':'AP_1705623449','RSSI':-89},{'SSID':'CAMPOS','RSSI':-89},{'SSID':'Sandra123','RSSI':-92},{'SSID':'Tamires','RSSI':-92},{'SSID':'FERNANDO','RSSI':-92},{'SSID':'Km','RSSI':-94},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-62},{'SSID':'@2830','RSSI':-63},{'SSID':'@2830_Ext','RSSI':-75},{'SSID':'FERNANDO','RSSI':-77},{'SSID':'CAVALO DE TROIA','RSSI':-83},{'SSID':'Casa Branca','RSSI':-87},{'SSID':'Sandra123','RSSI':-88},{'SSID':'CAMPOS','RSSI':-89},{'SSID':'AP_1705623449','RSSI':-90},{'SSID':'FERNANDO','RSSI':-92},{'SSID':'Tamires','RSSI':-95},]}
+
+
+Medição 8 - 4.5m
+
+{'networks':[{'SSID':'@2830','RSSI':-67},{'SSID':'FERNANDO','RSSI':-70},{'SSID':'lorena-notebook','RSSI':-71},{'SSID':'@2830_Ext','RSSI':-72},{'SSID':'Casa Branca','RSSI':-84},{'SSID':'CASA DA ARVORE ','RSSI':-87},{'SSID':'Sandra123','RSSI':-89},{'SSID':'PACHECO','RSSI':-91},{'SSID':'FERNANDO','RSSI':-93},]}
+
+{'networks':[{'SSID':'lorena-notebook','RSSI':-66},{'SSID':'@2830','RSSI':-67},{'SSID':'FERNANDO','RSSI':-72},{'SSID':'@2830_Ext','RSSI':-72},{'SSID':'Casa Branca','RSSI':-86},{'SSID':'PACHECO','RSSI':-87},{'SSID':'Sandra123','RSSI':-91},]}
+
+{'networks':[{'SSID':'@2830','RSSI':-67},{'SSID':'lorena-notebook','RSSI':-70},{'SSID':'FERNANDO','RSSI':-71},{'SSID':'@2830_Ext','RSSI':-72},{'SSID':'Casa Branca','RSSI':-84},{'SSID':'CAVALO DE TROIA','RSSI':-85},{'SSID':'AP_1705623449','RSSI':-90},{'SSID':'PACHECO','RSSI':-90},{'SSID':'Sandra123','RSSI':-91},]}
+
+
+Medição 9 - 5m
+
+{'networks':[{'SSID':'FERNANDO','RSSI':-72},{'SSID':'@2830_Ext','RSSI':-72},{'SSID':'lorena-notebook','RSSI':-74},{'SSID':'@2830','RSSI':-78},{'SSID':'CASA DA ARVORE ','RSSI':-82},{'SSID':'CAVALO DE TROIA','RSSI':-84},{'SSID':'Casa Branca','RSSI':-88},{'SSID':'Tatah Bispo','RSSI':-89},{'SSID':'AP_1705623449','RSSI':-89},{'SSID':'CAMPOS','RSSI':-89},{'SSID':'Sandra123','RSSI':-91},{'SSID':'10 Reais A Senha','RSSI':-91},{'SSID':'Tamires','RSSI':-92},{'SSID':'PACHECO','RSSI':-92},]}
+
+{'networks':[{'SSID':'FERNANDO','RSSI':-71},{'SSID':'@2830','RSSI':-71},{'SSID':'lorena-notebook','RSSI':-74},{'SSID':'@2830_Ext','RSSI':-75},{'SSID':'CASA DA ARVORE ','RSSI':-81},{'SSID':'CAVALO DE TROIA','RSSI':-85},{'SSID':'AP_1705623449','RSSI':-86},{'SSID':'Vasconcelos','RSSI':-86},{'SSID':'Casa Branca','RSSI':-88},{'SSID':'Km','RSSI':-89},{'SSID':'Tatah Bispo','RSSI':-90},{'SSID':'CAMPOS','RSSI':-90},{'SSID':'Sandra123','RSSI':-92},{'SSID':'FERNANDO','RSSI':-92},{'SSID':'Tamires','RSSI':-93},{'SSID':'Kaique ','RSSI':-93},{'SSID':'3J*CADEADO','RSSI':-94},{'SSID':'PACHECO','RSSI':-94},]}
+
+{'networks':[{'SSID':'FERNANDO','RSSI':-71},{'SSID':'@2830','RSSI':-71},{'SSID':'lorena-notebook','RSSI':-72},{'SSID':'@2830_Ext','RSSI':-75},{'SSID':'CASA DA ARVORE ','RSSI':-81},{'SSID':'Vasconcelos','RSSI':-83},{'SSID':'CAVALO DE TROIA','RSSI':-84},{'SSID':'Casa Branca','RSSI':-89},{'SSID':'AP_1705623449','RSSI':-89},{'SSID':'Sandra123','RSSI':-90},{'SSID':'CAMPOS','RSSI':-90},{'SSID':'Tatah Bispo','RSSI':-91},{'SSID':'FERNANDO','RSSI':-92},{'SSID':'3J*CADEADO','RSSI':-93},{'SSID':'Km','RSSI':-94},{'SSID':'Tamires','RSSI':-94},]}

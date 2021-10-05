@@ -1,0 +1,19 @@
+Ponto 2 (Entre a porta e a televisão)
+
+Medição 1:
+{'networks':[{'SSID':'@2830_Ext','RSSI':-44},{'SSID':'@2830','RSSI':-50},{'SSID':'lorena-notebook','RSSI':-70},{'SSID':'FERNANDO','RSSI':-75},{'SSID':'Helena','RSSI':-81},{'SSID':'FERNANDO','RSSI':-84},{'SSID':'AP_1705623449','RSSI':-85},{'SSID':'Carol','RSSI':-92},]}
+
+Medição 2:
+{'networks':[{'SSID':'@2830_Ext','RSSI':-44},{'SSID':'@2830','RSSI':-50},{'SSID':'FERNANDO','RSSI':-75},{'SSID':'lorena-notebook','RSSI':-78},{'SSID':'Helena','RSSI':-82},{'SSID':'AP_1705623449','RSSI':-83},{'SSID':'FERNANDO','RSSI':-85},{'SSID':'Tamires','RSSI':-92},{'SSID':'Carol','RSSI':-92},]}
+
+Medição 3:
+{'networks':[{'SSID':'@2830_Ext','RSSI':-45},{'SSID':'@2830','RSSI':-50},{'SSID':'lorena-notebook','RSSI':-69},{'SSID':'FERNANDO','RSSI':-75},{'SSID':'Helena','RSSI':-82},{'SSID':'FERNANDO','RSSI':-85},{'SSID':'Carol','RSSI':-91},]}
+
+Medição 4:
+{'networks':[{'SSID':'@2830_Ext','RSSI':-43},{'SSID':'@2830','RSSI':-52},{'SSID':'FERNANDO','RSSI':-72},{'SSID':'lorena-notebook','RSSI':-75},{'SSID':'Helena','RSSI':-81},{'SSID':'AP_1705623449','RSSI':-83},{'SSID':'FERNANDO','RSSI':-86},{'SSID':'COGO','RSSI':-90},{'SSID':'Carol','RSSI':-91},{'SSID':'CAVALO DE TROIA','RSSI':-93},]}
+
+Medição 5:
+{'networks':[{'SSID':'@2830_Ext','RSSI':-44},{'SSID':'@2830','RSSI':-51},{'SSID':'lorena-notebook','RSSI':-71},{'SSID':'FERNANDO','RSSI':-73},{'SSID':'Helena','RSSI':-84},{'SSID':'AP_1705623449','RSSI':-84},{'SSID':'FERNANDO','RSSI':-87},{'SSID':'Carol','RSSI':-91},{'SSID':'Alcatel  PIXI','RSSI':-92},]}
+
+Medição 6:
+{'networks':[{'SSID':'@2830_Ext','RSSI':-44},{'SSID':'@2830','RSSI':-50},{'SSID':'FERNANDO','RSSI':-74},{'SSID':'lorena-notebook','RSSI':-78},{'SSID':'Helena','RSSI':-81},{'SSID':'AP_1705623449','RSSI':-84},{'SSID':'FERNANDO','RSSI':-86},{'SSID':'Carol','RSSI':-89},{'SSID':'Alcatel  PIXI','RSSI':-92},]}
