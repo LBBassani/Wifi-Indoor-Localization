@@ -261,3 +261,10 @@ plt.plot(y_repeater, X_repeater, 'ro', yy, XX)
 plt.xlabel('Distance (m)')
 plt.ylabel('RSSI (dBm)')
 plt.title("Repeater distance")
+
+import pickle
+
+filename = "distance_cubic_regression.sav"
+pickle.dump(model_distance_notebook, open("notebook_" + filename, 'wb'))
+pickle.dump(model_distance_router, open("router_" + filename, 'wb'))
+pickle.dump(model_distance_repeater, open("repeater_" + filename, 'wb'))
