@@ -72,9 +72,10 @@ model_distance_notebook.fit(X_notebook,y_notebook)
 y_notebook_pred = model_distance_notebook.predict(X_notebook)
 
 # metricas
+print("\nNotebook")
 print("Mean absolute error: %.2f" % np.mean(np.absolute(y_notebook - y_notebook_pred)))
 print("Residual sum of squares: %.2f" % np.mean((y_notebook - y_notebook_pred)**2))
-print("R2-score: %.2f" % r2_score(y_notebook, y_notebook_pred))
+print("R2-score: %.2f\n" % r2_score(y_notebook, y_notebook_pred))
 
 #%%
 
@@ -151,9 +152,10 @@ model_distance_router.fit(X_router,y_router)
 y_router_pred = model_distance_router.predict(X_router)
 
 # metricas
+print("Router")
 print("Mean absolute error: %.2f" % np.mean(np.absolute(y_router - y_router_pred)))
 print("Residual sum of squares: %.2f" % np.mean((y_router - y_router_pred)**2))
-print("R2-score: %.2f" % r2_score(y_router, y_router_pred))
+print("R2-score: %.2f\n" % r2_score(y_router, y_router_pred))
 
 #%%
 
@@ -230,9 +232,10 @@ model_distance_repeater.fit(X_repeater,y_repeater)
 y_repeater_pred = model_distance_repeater.predict(X_repeater)
 
 # metricas
+print("Repeater")
 print("Mean absolute error: %.2f" % np.mean(np.absolute(y_repeater - y_repeater_pred)))
 print("Residual sum of squares: %.2f" % np.mean((y_repeater - y_repeater_pred)**2))
-print("R2-score: %.2f" % r2_score(y_repeater, y_repeater_pred))
+print("R2-score: %.2f\n" % r2_score(y_repeater, y_repeater_pred))
 
 #%%
 
