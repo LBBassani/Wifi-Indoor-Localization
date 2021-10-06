@@ -1,0 +1,19 @@
+Ponto D2 (Corredor)
+
+Aferição 1
+{'networks':[{'SSID':'@2830_Ext','RSSI':-64},{'SSID':'lorena-notebook','RSSI':-65},{'SSID':'@2830','RSSI':-68},{'SSID':'FERNANDO','RSSI':-83},{'SSID':'AP_1705623449','RSSI':-91},{'SSID':'Carol','RSSI':-93},{'SSID':'Helena','RSSI':-93},]}
+
+Aferição 2
+{'networks':[{'SSID':'@2830_Ext','RSSI':-61},{'SSID':'lorena-notebook','RSSI':-65},{'SSID':'@2830','RSSI':-68},{'SSID':'FERNANDO','RSSI':-83},{'SSID':'AP_1705623449','RSSI':-91},{'SSID':'Helena','RSSI':-92},{'SSID':'Carol','RSSI':-94},{'SSID':'FERNANDO','RSSI':-95},]}
+
+Aferição 3
+{'networks':[{'SSID':'@2830_Ext','RSSI':-61},{'SSID':'lorena-notebook','RSSI':-62},{'SSID':'@2830','RSSI':-67},{'SSID':'FERNANDO','RSSI':-83},{'SSID':'CAVALO DE TROIA','RSSI':-90},{'SSID':'Helena','RSSI':-91},{'SSID':'FERNANDO','RSSI':-92},{'SSID':'AP_1705623449','RSSI':-93},{'SSID':'Carol','RSSI':-93},]}
+
+Aferição 4
+{'networks':[{'SSID':'@2830_Ext','RSSI':-60},{'SSID':'lorena-notebook','RSSI':-62},{'SSID':'@2830','RSSI':-68},{'SSID':'FERNANDO','RSSI':-82},{'SSID':'AP_1705623449','RSSI':-89},{'SSID':'CAVALO DE TROIA','RSSI':-91},{'SSID':'Carol','RSSI':-92},{'SSID':'FERNANDO','RSSI':-94},]}
+
+Aferição 5
+{'networks':[{'SSID':'@2830_Ext','RSSI':-63},{'SSID':'lorena-notebook','RSSI':-64},{'SSID':'@2830','RSSI':-68},{'SSID':'FERNANDO','RSSI':-83},{'SSID':'AP_1705623449','RSSI':-89},{'SSID':'FERNANDO','RSSI':-91},{'SSID':'Carol','RSSI':-92},{'SSID':'Helena','RSSI':-94},]}
+
+Aferição 6
+{'networks':[{'SSID':'@2830_Ext','RSSI':-60},{'SSID':'lorena-notebook','RSSI':-66},{'SSID':'@2830','RSSI':-67},{'SSID':'FERNANDO','RSSI':-82},{'SSID':'CAVALO DE TROIA','RSSI':-90},{'SSID':'AP_1705623449','RSSI':-91},{'SSID':'FERNANDO','RSSI':-92},{'SSID':'Helena','RSSI':-93},{'SSID':'Carol','RSSI':-93},]}

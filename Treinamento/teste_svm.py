@@ -7,6 +7,9 @@ from math import sqrt
 import matplotlib.pyplot as plt
 from sklearn.metrics import r2_score
 
+from dominio import *
+from teste_1 import *
+
 #%%
 
 # load the model from disk
@@ -14,70 +17,6 @@ file_name = "distance_svm.sav"
 notebook_model = pickle.load(open("notebook_" + file_name, 'rb'))   # ponto A
 repeater_model = pickle.load(open("repeater_" + file_name, 'rb'))   # ponto B
 router_model = pickle.load(open("router_" + file_name, 'rb'))       # ponto C
-
-
-#%%
-# Constantes do domínio
-d = 5.3845
-A = (0,0)   # ponto A : notebook-hotspot
-B = (d, 0)  # ponto B : repeater
-C = (d, d)  # ponto C : router
-
-D1 = (d/2,0)        # Ponto de aferição perto do espelho
-D2 = (d/2, d/2)     # Ponto de aferição no corredor
-D3 = (2*d/3, d/3)   # Ponto de aferição perto da mesa
-
-#%%
-# Aferições
-points = { "x" : list(),
-          "y" : list(),
-          }
-points["x"].extend([D1[0], D1[0], D1[0], D1[0], D1[0], D1[0]])
-points["y"].extend([D1[1], D1[1], D1[1], D1[1], D1[1], D1[1]])
-
-points["x"].extend([D2[0], D2[0], D2[0], D2[0], D2[0], D2[0]])
-points["y"].extend([D2[1], D2[1], D2[1], D2[1], D2[1], D2[1]])
-
-points["x"].extend([D3[0], D3[0], D3[0], D3[0], D3[0], D3[0]])
-points["y"].extend([D3[1], D3[1], D3[1], D3[1], D3[1], D3[1]])
-
-#%%
-
-rssi_values_notebook = {"rssi" : list(),
-                        }
-
-# No ponto D1
-rssi_values_notebook["rssi"].extend([-68, -65, -63, -66, -71, -71])
-
-# No ponto D2
-rssi_values_notebook["rssi"].extend([-72, -70, -73, -70, -70, -71])
-
-# No ponto D3
-rssi_values_notebook["rssi"].extend([-69, -72, -73, -73, -71, -77])
-
-rssi_values_router = {"rssi" : list(),
-                        }
-
-# No ponto D1
-rssi_values_router["rssi"].extend([-57, -61, -62, -61, -63, -61])
-
-# No ponto D2
-rssi_values_router["rssi"].extend([-57, -57, -56, -57, -57, -56])
-
-# No ponto D3
-rssi_values_router["rssi"].extend([-53, -52, -53, -53, -54, -53])
-
-rssi_values_repeater = {"rssi" : list(),
-                        }
-
-# No ponto D1
-rssi_values_repeater["rssi"].extend([-54, -37, -37, -38, -37, -40])
-
-# No ponto D2
-rssi_values_repeater["rssi"].extend([-48, -49, -49, -49, -48, -48])
-
-# No ponto D3
-rssi_values_repeater["rssi"].extend([-48, -50, -50, -48, -49, -51])
 
 #%%
 df_notebook = pd.DataFrame(data=rssi_values_notebook) # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html
