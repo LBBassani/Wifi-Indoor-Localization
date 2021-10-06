@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.svm import SVR # available kernels: {‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’}, default=’rbf’
 from sklearn.metrics import r2_score
+from statistics import mean
 
 #%%
 # Valores lidos pelo hotspot do notebook
@@ -13,48 +14,48 @@ rssi_values_notebook = {"rssi" : list(),
                }
 
 # bem próximo
-rssi_values_notebook["rssi"].extend([-35, -37, -37])
-rssi_values_notebook["distance"].extend([0,0,0])
+rssi_values_notebook["rssi"].extend([mean([-35, -37, -37])])
+rssi_values_notebook["distance"].extend([0])
 
 # 0.5m
-rssi_values_notebook["rssi"].extend([-41, -42, -39])
-rssi_values_notebook["distance"].extend([0.5, 0.5, 0.5])
+rssi_values_notebook["rssi"].extend([mean([-41, -42, -39])])
+rssi_values_notebook["distance"].extend([ 0.5])
 
 # 1m
-rssi_values_notebook["rssi"].extend([-42, -42, -41])
-rssi_values_notebook["distance"].extend([1, 1, 1])
+rssi_values_notebook["rssi"].extend([mean([-42, -42, -41])])
+rssi_values_notebook["distance"].extend([1])
 
 # 1.5m
-rssi_values_notebook["rssi"].extend([-51, -51, -53])
-rssi_values_notebook["distance"].extend([1.5, 1.5, 1.5])
+rssi_values_notebook["rssi"].extend([mean([-51, -51, -53])])
+rssi_values_notebook["distance"].extend([1.5])
 
 # 2m
-rssi_values_notebook["rssi"].extend([-55, -53, -52])
-rssi_values_notebook["distance"].extend([2, 2, 2])
+rssi_values_notebook["rssi"].extend([mean([-55, -53, -52])])
+rssi_values_notebook["distance"].extend([2])
 
 # 2.5m
-rssi_values_notebook["rssi"].extend([-64, -55, -51])
-rssi_values_notebook["distance"].extend([2.5, 2.5, 2.5])
+rssi_values_notebook["rssi"].extend([mean([-64, -55, -51])])
+rssi_values_notebook["distance"].extend([2.5])
 
 # 3m
-rssi_values_notebook["rssi"].extend([-56, -55, -62])
-rssi_values_notebook["distance"].extend([3, 3, 3])
+rssi_values_notebook["rssi"].extend([mean([-56, -55, -62])])
+rssi_values_notebook["distance"].extend([3])
 
 # 3.5m
-rssi_values_notebook["rssi"].extend([-63, -63, -64])
-rssi_values_notebook["distance"].extend([3.5, 3.5, 3.5])
+rssi_values_notebook["rssi"].extend([mean([-63, -63, -64])])
+rssi_values_notebook["distance"].extend([3.5])
 
 # 4m
-rssi_values_notebook["rssi"].extend([-69, -62, -62])
-rssi_values_notebook["distance"].extend([4, 4, 4])
+rssi_values_notebook["rssi"].extend([mean([-69, -62, -62])])
+rssi_values_notebook["distance"].extend([4])
 
 # 4.5m
-rssi_values_notebook["rssi"].extend([-70, -66, -70])
-rssi_values_notebook["distance"].extend([4.5, 4.5, 4.5])
+rssi_values_notebook["rssi"].extend([mean([-70, -66, -70])])
+rssi_values_notebook["distance"].extend([4.5])
 
 # 5m
-rssi_values_notebook["rssi"].extend([-74, -74, -72])
-rssi_values_notebook["distance"].extend([5, 5, 5])
+rssi_values_notebook["rssi"].extend([mean([-74, -74, -72])])
+rssi_values_notebook["distance"].extend([5])
 
 #%%
 # generate 2d classification dataset
@@ -93,48 +94,48 @@ rssi_values_router = {"rssi" : list(),
                }
 
 # bem próximo
-rssi_values_router["rssi"].extend([-35, -35, -35])
-rssi_values_router["distance"].extend([0,0,0])
+rssi_values_router["rssi"].extend([mean([-35, -35, -35])])
+rssi_values_router["distance"].extend([0])
 
 # 0.5m
-rssi_values_router["rssi"].extend([-39, -40, -39])
-rssi_values_router["distance"].extend([0.5, 0.5, 0.5])
+rssi_values_router["rssi"].extend([mean([-39, -40, -39])])
+rssi_values_router["distance"].extend([ 0.5])
 
 # 1m
-rssi_values_router["rssi"].extend([-37, -37, -37])
-rssi_values_router["distance"].extend([1, 1, 1])
+rssi_values_router["rssi"].extend([mean([-37, -37, -37])])
+rssi_values_router["distance"].extend([ 1])
 
 # 1.5m
-rssi_values_router["rssi"].extend([-53, -52, -51])
-rssi_values_router["distance"].extend([1.5, 1.5, 1.5])
+rssi_values_router["rssi"].extend([mean([-53, -52, -51])])
+rssi_values_router["distance"].extend([1.5])
 
 # 2m
-rssi_values_router["rssi"].extend([-46, -47, -47])
-rssi_values_router["distance"].extend([2, 2, 2])
+rssi_values_router["rssi"].extend([mean([-46, -47, -47])])
+rssi_values_router["distance"].extend([2])
 
 # 2.5m
-rssi_values_router["rssi"].extend([-51, -51, -51])
-rssi_values_router["distance"].extend([2.5, 2.5, 2.5])
+rssi_values_router["rssi"].extend([mean([-51, -51, -51])])
+rssi_values_router["distance"].extend([2.5])
 
 # 3m
-rssi_values_router["rssi"].extend([-61, -59, -59])
-rssi_values_router["distance"].extend([3, 3, 3])
+rssi_values_router["rssi"].extend([mean([-61, -59, -59])])
+rssi_values_router["distance"].extend([3])
 
 # 3.5m
-rssi_values_router["rssi"].extend([-58, -58, -58])
-rssi_values_router["distance"].extend([3.5, 3.5, 3.5])
+rssi_values_router["rssi"].extend([mean([-58, -58, -58])])
+rssi_values_router["distance"].extend([3.5])
 
 # 4m
-rssi_values_router["rssi"].extend([-62, -64, -64])
-rssi_values_router["distance"].extend([4, 4, 4])
+rssi_values_router["rssi"].extend([mean([-62, -64, -64])])
+rssi_values_router["distance"].extend([4])
 
 # 4.5m
-rssi_values_router["rssi"].extend([-62, -62, -62])
-rssi_values_router["distance"].extend([4.5, 4.5, 4.5])
+rssi_values_router["rssi"].extend([mean([-62, -62, -62])])
+rssi_values_router["distance"].extend([4.5])
 
 # 5m
-rssi_values_router["rssi"].extend([-58, -58, -58])
-rssi_values_router["distance"].extend([5, 5, 5])
+rssi_values_router["rssi"].extend([mean([-58, -58, -58])])
+rssi_values_router["distance"].extend([5])
 
 #%%
 # generate 2d classification dataset
@@ -173,48 +174,48 @@ rssi_values_repeater = {"rssi" : list(),
                }
 
 # bem próximo
-rssi_values_repeater["rssi"].extend([-27, -27, -27])
-rssi_values_repeater["distance"].extend([0,0,0])
+rssi_values_repeater["rssi"].extend([mean([-27, -27, -27])])
+rssi_values_repeater["distance"].extend([0])
 
 # 0.5m
-rssi_values_repeater["rssi"].extend([-34, -34, -33])
-rssi_values_repeater["distance"].extend([0.5, 0.5, 0.5])
+rssi_values_repeater["rssi"].extend([mean([-34, -34, -33])])
+rssi_values_repeater["distance"].extend([0.5])
 
 # 1m
-rssi_values_repeater["rssi"].extend([-36, -36, -36])
-rssi_values_repeater["distance"].extend([1, 1, 1])
+rssi_values_repeater["rssi"].extend([mean([-36, -36, -36])])
+rssi_values_repeater["distance"].extend([1])
 
 # 1.5m
-rssi_values_repeater["rssi"].extend([-36, -35, -35])
-rssi_values_repeater["distance"].extend([1.5, 1.5, 1.5])
+rssi_values_repeater["rssi"].extend([mean([-36, -35, -35])])
+rssi_values_repeater["distance"].extend([1.5])
 
 # 2m
-rssi_values_repeater["rssi"].extend([-39, -39, -38])
-rssi_values_repeater["distance"].extend([2, 2, 2])
+rssi_values_repeater["rssi"].extend([mean([-39, -39, -38])])
+rssi_values_repeater["distance"].extend([2])
 
 # 2.5m
-rssi_values_repeater["rssi"].extend([-39, -39, -39])
-rssi_values_repeater["distance"].extend([2.5, 2.5, 2.5])
+rssi_values_repeater["rssi"].extend([mean([-39, -39, -39])])
+rssi_values_repeater["distance"].extend([2.5])
 
 # 3m
-rssi_values_repeater["rssi"].extend([-40, -38, -39])
-rssi_values_repeater["distance"].extend([3, 3, 3])
+rssi_values_repeater["rssi"].extend([mean([-40, -38, -39])])
+rssi_values_repeater["distance"].extend([3])
 
 # 3.5m
-rssi_values_repeater["rssi"].extend([-40, -40, -38])
-rssi_values_repeater["distance"].extend([3.5, 3.5, 3.5])
+rssi_values_repeater["rssi"].extend([mean([-40, -40, -38])])
+rssi_values_repeater["distance"].extend([3.5])
 
 # 4m
-rssi_values_repeater["rssi"].extend([-40, -41, -41])
-rssi_values_repeater["distance"].extend([4, 4, 4])
+rssi_values_repeater["rssi"].extend([mean([-40, -41, -41])])
+rssi_values_repeater["distance"].extend([4])
 
 # 4.5m
-rssi_values_repeater["rssi"].extend([-44, -44, -44])
-rssi_values_repeater["distance"].extend([4.5, 4.5, 4.5])
+rssi_values_repeater["rssi"].extend([mean([-44, -44, -44])])
+rssi_values_repeater["distance"].extend([4.5])
 
 # 5m
-rssi_values_repeater["rssi"].extend([-42, -42, -43])
-rssi_values_repeater["distance"].extend([5, 5, 5])
+rssi_values_repeater["rssi"].extend([mean([-42, -42, -43])])
+rssi_values_repeater["distance"].extend([5])
 
 #%%
 # generate 2d classification dataset
