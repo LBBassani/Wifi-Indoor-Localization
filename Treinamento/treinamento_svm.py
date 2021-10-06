@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.svm import SVR
+from sklearn.svm import SVR # available kernels: {‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’}, default=’rbf’
 from sklearn.metrics import r2_score
 
 #%%
@@ -66,7 +66,7 @@ y_notebook = pd.DataFrame(data = df_notebook, columns=['distance'])
 #%%
 # Treinamento do modelo usando regressão linear
 # https://www.datageeks.com.br/regressao-linear/
-model_distance_notebook = SVR()
+model_distance_notebook = SVR(gamma=0.0015)
 model_distance_notebook.fit(X_notebook,y_notebook.values.ravel())
 
 y_notebook_pred = model_distance_notebook.predict(X_notebook)
@@ -146,7 +146,7 @@ y_router = pd.DataFrame(data = df_router, columns=['distance'])
 #%%
 # Treinamento do modelo usando regressão linear
 # https://www.datageeks.com.br/regressao-linear/
-model_distance_router = SVR()
+model_distance_router = SVR(gamma=0.0015)
 model_distance_router.fit(X_router,y_router.values.ravel())
 
 y_router_pred = model_distance_router.predict(X_router)
@@ -226,7 +226,7 @@ y_repeater = pd.DataFrame(data = df_repeater, columns=['distance'])
 #%%
 # Treinamento do modelo usando regressão linear
 # https://www.datageeks.com.br/regressao-linear/
-model_distance_repeater = SVR()
+model_distance_repeater = SVR(gamma=0.0015)
 model_distance_repeater.fit(X_repeater,y_repeater.values.ravel())
 
 y_repeater_pred = model_distance_repeater.predict(X_repeater)

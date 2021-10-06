@@ -121,6 +121,6 @@ print("Residual sum of squares: %.2f" % np.mean((y_real - y_pred)**2))
 print("R2-score: %.2f" % r2_score(y_real, y_pred))
 
 #%%
-
+# Os pontos vermelhos são os pontos de aferição reais, os pontos azuis são os pontos preditos e os pontos verdes são os pontos de wifi
 plt.plot( x_real, y_real, 'ro', x_pred, y_pred, 'bs', A[0], A[1], 'g^', B[0], B[1], 'g^', C[0], C[1], 'g^')
 
