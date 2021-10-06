@@ -92,6 +92,42 @@ e = notebook_model.predict(X_notebook)    # Distancias a partir do ponto A
 f = repeater_model.predict(X_repeater)    # Distancias a partir do ponto B
 g = router_model.predict(X_router)        # Distancias a partir do ponto C
 
+#%%
+e_real = [d/2]*6
+e_real.extend([sqrt((d/2)**2 + (d/2)**2)]*6)
+e_real.extend([sqrt((2*d/3)**2 + (d/3)**2)]*6)
+e_real = pd.DataFrame(data = e_real, columns=['distance'])
+
+e_pred = pd.DataFrame(data= e, columns=['distance'])
+print("Erros no modelo do notebook:")
+print("Mean absolute error: %.2f" % np.mean(np.absolute( e_real - e_pred)))
+print("Residual sum of squares: %.2f" % np.mean((e_real - e_pred)**2))
+print("R2-score: %.2f" % r2_score(e_real, e_pred))
+
+
+#%%
+f_real = [d/2]*6
+f_real.extend([sqrt((d/2)**2 + (d/2)**2)]*6)
+f_real.extend([sqrt((2*d/3)**2 + (d/3)**2)]*6)
+f_real = pd.DataFrame(data= f_real, columns=['distance'])
+
+f_pred = pd.DataFrame(data= f, columns=['distance'])
+print("Erros no modelo da repetidora:")
+print("Mean absolute error: %.2f" % np.mean(np.absolute( f_real - f_pred)))
+print("Residual sum of squares: %.2f" % np.mean((f_real - f_pred)**2))
+print("R2-score: %.2f" % r2_score(f_real, f_pred))
+
+#%%
+g_real = [sqrt((d/2)**2 + (d)**2)]*6
+g_real.extend([sqrt((d/2)**2 + (d/2)**2)]*6)
+g_real.extend([sqrt((d - 2*d/3)**2 + (d - d/3)**2)]*6)
+g_real = pd.DataFrame(data= g_real, columns=['distance'])
+
+g_pred = pd.DataFrame(data= g, columns=['distance'])
+print("Erros no modelo do roteador:")
+print("Mean absolute error: %.2f" % np.mean(np.absolute( g_real - g_pred)))
+print("Residual sum of squares: %.2f" % np.mean((g_real - g_pred)**2))
+print("R2-score: %.2f" % r2_score(g_real, g_pred))
 
 #%%
 x = list()
